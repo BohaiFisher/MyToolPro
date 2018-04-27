@@ -1,4 +1,4 @@
-package com.bohaifisher.mytoolpro;
+package com.bohaifisher.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

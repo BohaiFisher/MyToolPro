@@ -1,4 +1,4 @@
-package com.bohaifisher.mytoolpro;
+package com.bohaifisher.activity;
 
 import org.junit.Test;
 
