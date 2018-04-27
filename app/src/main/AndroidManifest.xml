@@ -30,6 +30,8 @@
                 <action android:name="com.bohaifisher.broadreceiver.OuterBroadReceiver" />
             </intent-filter>
         </receiver>
+
+        <activity android:name="com.bohaifisher.views.dialogs.DialogUseActivity"></activity>
     </application>
 
 </manifest>

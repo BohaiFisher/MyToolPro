@@ -7,6 +7,7 @@ import android.widget.Button;
 import com.bohaifisher.base.BaseActivity;
 import com.bohaifisher.broadreceiver.BroadcastTestActivity;
 import com.bohaifisher.mytoolpro.R;
+import com.bohaifisher.views.dialogs.DialogUseActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -35,6 +36,7 @@ public class MainActivity extends BaseActivity {
                 startActivity(BroadcastTestActivity.class);
                 break;
             case R.id.btn_dialog_test:
+                startActivity(DialogUseActivity.class);
                 break;
         }
     }
