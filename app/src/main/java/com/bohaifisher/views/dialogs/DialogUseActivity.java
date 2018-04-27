@@ -44,9 +44,11 @@ public class DialogUseActivity extends BaseActivity {
         switch (view.getId()) {
             case R.id.btn_logout_dialog_use:
                 mLogoutDialog.show();
-                mLogoutDialog.setCanceledOnTouchOutside(false);
+                mLogoutDialog.setCanceledOnTouchOutside(false);//禁止点击
                 break;
             case R.id.btn_waiting_dialog_use:
+                LoadingDialog loadingDialog = new LoadingDialog(this, "正在加载数据...");
+                loadingDialog.show();
                 break;
         }
     }
